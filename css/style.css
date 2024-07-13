@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: "Comfortaa", cursive;
+    background-color: #1c1c1c;
+}
+.brand{
+    width: 50px;
+    margin-right:5px;
+}
+.h-200{
+    height: 200px !important;
+}
+
+
+nav{
+    background-color: #3a497b;
+    margin-top: -33px;
+    
+    
+}
+.navbar-brand{
+    cursor:auto;
+}
+
+nav .nav-item .active,nav .nav-item .nav-link:hover{
+    color: #09c !important;
+}
+.card{
+    background-color: transparent;
+    transition: .5s;
+    filter: grayscale(.5);
+}
+.card:hover{
+    transform: scale(1.05);
+    filter: grayscale(0);
+}
+
+
+
+
